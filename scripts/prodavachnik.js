@@ -114,6 +114,15 @@ function startApp() {
             showHideMenuLinks();
             listAdverts();
         }
+    }
+
+    // user/logout
+    function logoutUser() {
+        sessionStorage.clear();
+        $('#loggedInUser').text("");
+        showHideMenuLinks();
+        showHomeView();
+    }
 		// advertisement/all
     function listAdverts() {
         $('#ads').empty();
@@ -154,15 +163,5 @@ function startApp() {
                 $('#ads').append(advertsTable);
             }
         }
-    }
-
-    }
-
-    // user/logout
-    function logoutUser() {
-        sessionStorage.clear();
-        $('#loggedInUser').text("");
-        showHideMenuLinks();
-        showHomeView();
     }
 }
