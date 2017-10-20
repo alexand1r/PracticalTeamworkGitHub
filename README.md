@@ -1,4 +1,4 @@
 # PracticalTeamworkGitHub
 
 Contributors: 
-  alecc - Алеквандър Ангелов, 
+  alecc - Александър Ангелов, - Димитър Николов, - Кирил Георгиев, - Марио Павлов 
