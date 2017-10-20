@@ -203,6 +203,7 @@ function startApp() {
             if (adverts.length === 0) {
                 $('#ads').text('No advertisements available.');
             } else {
+
                 let advertsTable = $('<table>')
                     .append($('<tr>').append(
                         '<th>Title</th>',
@@ -402,4 +403,6 @@ function startApp() {
             showInfo('Advertisement edited.');
         }
     }
+
+	
 }

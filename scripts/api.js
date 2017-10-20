@@ -7,9 +7,11 @@
                 creator: 0
             },
             title: "XBoss 1080",
+			description: "Modded gaming console",
             publisher: "Pesho",
             datePublished: "2017-06-04",
-            price: 100
+            price: 100,
+            image: "./static/fuze-f1.png"
         }
     ];
 
@@ -185,7 +187,7 @@
     });
 	
 	
-	 // Load single advert
+	// Load single advert
     $.mockjax(function (requestSettings) {
         if (requestSettings.url.match(/https:\/\/mock\.api\.com\/appdata\/kid_rk\/adverts\/(.+)/) &&
             requestSettings.method === "GET") {
